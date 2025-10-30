@@ -6,7 +6,6 @@ import { useState } from 'react'
 const NAV_ITEMS = [
   { label: 'Masajes', href: '#masajes' },
   { label: 'Belleza', href: '#belleza' },
-  { label: 'Contacto', href: '#contacto' },
 ]
 
 export default function NavbarSpa() {

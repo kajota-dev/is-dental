@@ -7,9 +7,14 @@ const WHATSAPP_LINK =
 
 export default function Hero() {
   return (
-    <section className="relative flex min-h-[90vh] items-center justify-center bg-white text-gray-900">
-      <div className="mx-auto max-w-6xl px-6 py-24 text-center">
-        
+    <section
+      className="relative flex min-h-[90vh] items-center justify-center bg-cover bg-center bg-no-repeat text-gray-900"
+      style={{ backgroundImage: "url('/bgHero.jpg')" }}
+    >
+      {/* Overlay para mejor contraste */}
+      <div className="absolute inset-0 bg-white/80 sm:bg-white/70 lg:bg-white/60 backdrop-blur-[1px]" />
+
+      <div className="relative mx-auto max-w-6xl px-6 py-24 text-center z-10">
         <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl leading-tight">
           Sonrisas naturales <br />
           <span className="bg-gradient-to-r from-[#6F2DBD] to-[#10BFA0] bg-clip-text text-transparent">
@@ -17,14 +22,12 @@ export default function Hero() {
           </span>
         </h1>
 
- 
-        <p className="mt-6 text-lg text-gray-600 max-w-2xl mx-auto">
+        <p className="mt-6 text-lg text-gray-700 max-w-2xl mx-auto">
           En <span className="font-semibold text-[#6F2DBD]">Is Dental</span> combinamos tecnología moderna,
           atención personalizada y estética avanzada para que cada paciente disfrute de una sonrisa saludable
           y segura.
         </p>
 
-   
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           <Link
             href={WHATSAPP_LINK}
@@ -44,26 +47,27 @@ export default function Hero() {
         </div>
 
         <div className="mt-12 flex flex-wrap justify-center gap-3 text-xs font-medium text-gray-700">
-          <div className="rounded-xl border border-gray-200 bg-gray-50 px-4 py-2">
+          <div className="rounded-xl border border-gray-700 bg-gray-50/80 px-4 py-2">
             +1,000 sonrisas atendidas
           </div>
-          <div className="rounded-xl border border-gray-200 bg-gray-50 px-4 py-2">
+          <div className="rounded-xl border border-gray-700 bg-gray-50/80 px-4 py-2">
             Dos sedes en Turrialba
           </div>
-          <div className="rounded-xl border border-gray-200 bg-gray-50 px-4 py-2">
+          <div className="rounded-xl border border-gray-700 bg-gray-50/80 px-4 py-2">
             Equipo profesional certificado
           </div>
         </div>
-
-        <div
-          aria-hidden="true"
-          className="pointer-events-none absolute left-1/2 top-0 -z-10 h-[420px] w-[420px] -translate-x-1/2 rounded-full bg-[#6F2DBD]/10 blur-3xl"
-        />
-        <div
-          aria-hidden="true"
-          className="pointer-events-none absolute right-[10%] bottom-[10%] -z-10 h-[280px] w-[280px] rounded-full bg-[#10BFA0]/10 blur-3xl"
-        />
       </div>
+
+      {/* Luces decorativas */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute left-1/2 top-0 -z-10 h-[420px] w-[420px] -translate-x-1/2 rounded-full bg-[#6F2DBD]/10 blur-3xl"
+      />
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute right-[10%] bottom-[10%] -z-10 h-[280px] w-[280px] rounded-full bg-[#10BFA0]/10 blur-3xl"
+      />
     </section>
   )
 }

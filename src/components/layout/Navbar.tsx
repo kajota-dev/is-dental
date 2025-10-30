@@ -6,8 +6,8 @@ import Link from 'next/link'
 
 const NAV_ITEMS = [
   { label: 'Tratamientos', href: '#tratamientos' },
-  { label: 'Resultados', href: '#resultados' },
-  { label: 'Precios', href: '#precios' },
+  { label: 'Sedes', href: '#sedes' },
+  { label: 'Testimonios', href: '#testimonios' },
   { label: 'Contacto', href: '#contacto' },
 ]
 

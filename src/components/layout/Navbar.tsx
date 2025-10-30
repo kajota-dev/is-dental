@@ -39,7 +39,7 @@ export default function Navbar() {
   const close = () => setOpen(false)
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50">
+    <header className="sticky top-0 z-50">
       {/* TOP BAR (blanco y centrado) */}
       <div className="bg-white text-gray-800 border-b border-black/10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

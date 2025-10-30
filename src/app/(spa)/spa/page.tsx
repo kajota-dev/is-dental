@@ -18,12 +18,16 @@ const THERAPY: Card[] = [
   { title: 'Depurativo', desc: 'Drenaje suave para favorecer la eliminación de líquidos y toxinas.', duration: '45–60 min' },
   { title: 'Electroterapia', desc: 'Impulsos controlados para analgesia y recuperación muscular.', duration: '20–30 min' },
   { title: 'Podal con crioterapia', desc: 'Relajación plantar + frío localizado para desinflamar y aliviar fatiga.', duration: '30–45 min' },
+  // 👇 NUEVO
+  { title: 'Post operatorios', desc: 'Cuidados y drenaje para acelerar recuperación, desinflamar y mejorar cicatrización.', duration: '45–60 min' },
 ]
 
 const BEAUTY: Card[] = [
   { title: 'Henna', desc: 'Pigmentación vegetal para cejas definidas y de aspecto natural.' },
   { title: 'Pestañas', desc: 'Diseños que realzan tu mirada (clásicas, efecto natural o más volumen).' },
   { title: 'Cejas', desc: 'Perfilado, diseño y mantenimiento para armonía facial.' },
+  // 👇 NUEVO
+  { title: 'Depilación', desc: 'Depilación profesional (cera tibia) para una piel suave y prolija.' },
 ]
 
 export default function SpaPage() {

@@ -9,6 +9,7 @@ const NAV_ITEMS = [
   { label: 'Sedes', href: '#sedes' },
   { label: 'Testimonios', href: '#testimonios' },
   { label: 'Contacto', href: '#contacto' },
+  { label: 'Spa & Bienestar', href: '/spa' },
 ]
 
 const WHATSAPP_LINK =

@@ -1,20 +1,16 @@
+// src/app/layout.tsx
 import './globals.css'
-import type { Metadata } from 'next'
-import Navbar from '@/components/layout/Navbar'
-import Footer from '@/components/layout/footer'
 
-export const metadata: Metadata = {
+export const metadata = {
   title: 'Is Dental',
-  description: 'Clínica dental - Turrialba',
+  description: 'Clínica dental y spa en Turrialba',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="es">
-      <body className="bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100">
-        <Navbar />
-        <div className="pt-20 lg:pt-24">{children}</div>
-        <Footer/>
+    <html lang="es" suppressHydrationWarning>
+      <body className="bg-white text-gray-900">
+        {children}
       </body>
     </html>
   )

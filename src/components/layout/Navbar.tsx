@@ -17,7 +17,7 @@ const WHATSAPP_LINK =
 
 const PHONE_DISPLAY = '8521-1021'
 const PHONE_TEL = '85211021'
-const EMAIL = 'isdental@gmail.com'
+const EMAIL = 'isdentalyspa@gmail.com'
 const COUNTRY = 'Turrialba, Costa Rica'
 
 // Colores de marca (arbitrarios Tailwind)

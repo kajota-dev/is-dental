@@ -16,14 +16,14 @@ export default function Hero() {
 
       <div className="relative mx-auto max-w-6xl px-6 py-24 text-center z-10">
         <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl leading-tight">
-          Sonrisas naturales <br />
+          Relajación <br />
           <span className="bg-gradient-to-r from-[#6F2DBD] to-[#10BFA0] bg-clip-text text-transparent">
-            que inspiran confianza
+            al sonreir
           </span>
         </h1>
 
         <p className="mt-6 text-lg text-gray-700 max-w-2xl mx-auto">
-          En <span className="font-semibold text-[#6F2DBD]">Is Dental</span> combinamos tecnología moderna,
+          En <span className="font-semibold text-[#6F2DBD]">Is Dental & Spa</span> combinamos tecnología moderna,
           atención personalizada y estética avanzada para que cada paciente disfrute de una sonrisa saludable
           y segura.
         </p>

@@ -9,7 +9,7 @@ const LOCATIONS = [
     phone: '8521-1021',
     map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d394.84566137134124!2d-83.71212343441914!3d9.953902119047093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0d1c4dea868d5%3A0xbd5d35b9a7eedb73!2sIS%20DENTAL!5e1!3m2!1ses!2scr!4v1761700735703!5m2!1ses!2scr',
     whatsapp: 'https://wa.me/50685211021?text=Hola,%20quiero%20agendar%20en%20la%20sede%20de%20El%20Carmen',
-    hours: 'Lunes a Sábado | 8:00am - 6:00pm',
+    hours: 'Martes, Jueves, Sabado | 01:00pm - 07:00pm | Miercoles 08:00am - 12:00md',
   },
   {
     name: 'Turrialba centro.',
@@ -17,7 +17,7 @@ const LOCATIONS = [
     phone: '8521-1021',
     map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1008.16970888054!2d-83.68827573042606!3d9.906734599387127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0d70c1e578785%3A0x3ffb7f5c1f2180e9!2sIS%20Dental%20%26%20Spa!5e1!3m2!1ses!2scr!4v1761700824168!5m2!1ses!2scr',
     whatsapp: 'https://wa.me/50685211021?text=Hola,%20quiero%20agendar%20en%20la%20sede%20de%20Turrialba%20Centro',
-    hours: 'Lunes a Sábado | 9:00am - 6:00pm',
+    hours: 'Lunes 08:00am - 06:00pm | Martes, Jueves, Sábado 08:00am - 12:00md | Miércoles 01:00pm - 06:00pm',
   },
 ]
 

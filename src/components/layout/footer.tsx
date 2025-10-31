@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const PHONE_DISPLAY = '8521-1021'
 const PHONE_TEL = '85211021'
-const EMAIL = 'isdental@gmail.com'
+const EMAIL = 'isdentalyspa@gmail.com'
 const ADDRESS = 'Turrialba, Costa Rica'
 const WHATSAPP_LINK =
   'https://wa.me/50685211021?text=Hola%20Is%20Dental,%20quiero%20agendar%20una%20valoraci%C3%B3n'

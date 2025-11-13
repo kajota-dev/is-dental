@@ -70,8 +70,8 @@ export default function Footer() {
 
           {/* Socials (coloca tus URLs reales) */}
           <div className="mt-5 flex items-center gap-4 text-white/90">
-            <a href="#" aria-label="Facebook" className="hover:text-[#14B8A6] transition">Facebook</a>
-            <a href="#" aria-label="Instagram" className="hover:text-[#14B8A6] transition">Instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=100064013438144" target='_blank' aria-label="Facebook" className="hover:text-[#14B8A6] transition">Facebook</a>
+            <a href="https://www.instagram.com/isdental_cr/" target='_blank' aria-label="Instagram" className="hover:text-[#14B8A6] transition">Instagram</a>
           </div>
         </div>
       </div>

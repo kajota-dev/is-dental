@@ -4,16 +4,22 @@ import React from 'react'
 
 const TESTIMONIALS = [
   {
-    name: 'María Rodríguez',
+    name: 'María José',
     comment:
-      'Excelente atención desde el primer momento. Me explicaron todo el proceso con claridad y el resultado fue increíble. Sin duda los recomiendo a todos los que buscan confianza y profesionalismo.',
-    treatment: 'Blanqueamiento dental',
+      '5 meses despues de los tratamientos, no me ha dolido nada. Es un lugar seguro y feliz, todos son muy profesionales.',
+    treatment: 'Endodoncia, Ortodoncia, cirugias de cordal',
   },
   {
     name: 'Carlos Jiménez',
     comment:
-      'Tenía años sin visitar al dentista por miedo, pero en IS Dental me sentí cómodo y seguro. Me trataron con paciencia y el cambio en mi sonrisa ha sido total.',
-    treatment: 'Ortodoncia estética',
+      'Quedé muy contento con el servicio, mis familiares los van a contactar para una limpieza tambien.',
+    treatment: 'Limpieza Dental',
+  },
+    {
+    name: 'María Monica',
+    comment:
+      'Vi resultados al segundo mes y el trato ha sido maravilloso. Me encuentro muy satisfecha con los resultados.',
+    treatment: 'Ortodoncia',
   },
 ]
 

@@ -8,35 +8,35 @@ const SERVICES = [
     description:
       'Corrija la posición de sus dientes y mejore su sonrisa con tratamientos personalizados que se adaptan a su estilo de vida.',
     tags: ['Brackets', 'Invisalign', 'Alineadores'],
-    img: '/ortodoncia.png',
+    img: '/ortodoncia.jpg',
   },
   {
     title: 'Blanqueamiento dental',
     description:
       'Recupere el brillo natural de sus dientes con técnicas seguras y profesionales que no dañan el esmalte.',
     tags: ['Estética', 'Luz LED', 'Seguridad'],
-    img: '/blanqueamiento.png',
+    img: '/blanqueamiento.jpg',
   },
   {
     title: 'Limpieza dental',
     description:
       'Elimine placa y sarro para mantener una boca sana, fresca y libre de enfermedades bucales.',
     tags: ['Profilaxis', 'Ultrasonido', 'Prevención'],
-    img: '/limpieza.png',
+    img: '/limpiezadental.jpg',
   },
   {
     title: 'Carillas dentales',
     description:
       'Transforme su sonrisa en pocos días con carillas estéticas de alta durabilidad y aspecto natural.',
     tags: ['Estética', 'Porcelana', 'Resina'],
-    img: '/carillas.png',
+    img: '/carillas.jpg',
   },
   {
     title: 'Tratamiento de nervios',
     description:
       'Alivie el dolor y salve sus dientes con tratamientos de endodoncia modernos y sin molestias.',
     tags: ['Endodoncia', 'Recuperación', 'Sin dolor'],
-    img: '/nervios.png',
+    img: '/tratamientonervio.jpg',
   },
 ]
 

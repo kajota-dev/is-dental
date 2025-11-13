@@ -40,8 +40,6 @@ export default function ContactSection() {
       `• Teléfono: ${phone || '-'}`,
       `• Sede: ${sede}`,
       `• Tratamientos de interés: ${selectedList.length ? selectedList.join(', ') : '—'}`,
-      `• Fecha preferida: ${date || '—'}`,
-      `• Horario preferido: ${time || '—'}`,
       message ? `• Comentarios: ${message}` : '',
     ].filter(Boolean)
     return lines.join('\n')
@@ -162,32 +160,6 @@ export default function ContactSection() {
                   </button>
                 )
               })}
-            </div>
-          </div>
-
-          {/* Fecha / Hora preferidas */}
-          <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-5">
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">
-                Fecha preferida
-              </label>
-              <input
-                type="date"
-                value={date}
-                onChange={(e) => setDate(e.target.value)}
-                className="text-gray-900 w-full rounded-xl border border-gray-300 bg-white px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-[#6B21A8]"
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">
-                Horario preferido
-              </label>
-              <input
-                type="time"
-                value={time}
-                onChange={(e) => setTime(e.target.value)}
-                className="text-gray-900 w-full rounded-xl border border-gray-300 bg-white px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-[#6B21A8]"
-              />
             </div>
           </div>
 

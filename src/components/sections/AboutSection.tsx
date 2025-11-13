@@ -46,8 +46,17 @@ export default function AboutSection() {
         <div className="grid grid-cols-2 gap-4">
           <div className="relative h-56 sm:h-64 rounded-xl overflow-hidden shadow-md">
             <Image
-              src="/img/clinica1.jpg"
+              src="/ivania.jpg"
               alt="Instalaciones de IS Dental"
+              fill
+              className="object-cover hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+
+                    <div className="relative h-56 sm:h-64 rounded-xl overflow-hidden shadow-md mt-6">
+            <Image
+              src="/juancarlos.jpg"
+              alt="Paciente feliz en IS Dental"
               fill
               className="object-cover hover:scale-105 transition-transform duration-500"
             />
@@ -55,7 +64,7 @@ export default function AboutSection() {
 
           <div className="relative h-56 sm:h-64 rounded-xl overflow-hidden shadow-md mt-6">
             <Image
-              src="/img/clinica2.jpg"
+              src="/equipo.jpg"
               alt="Equipo de trabajo IS Dental"
               fill
               className="object-cover hover:scale-105 transition-transform duration-500"
@@ -64,21 +73,14 @@ export default function AboutSection() {
 
           <div className="relative h-56 sm:h-64 rounded-xl overflow-hidden shadow-md">
             <Image
-              src="/img/clinica3.jpg"
+              src="/joselyn.jpg"
               alt="Sala de atención IS Dental"
               fill
               className="object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
 
-          <div className="relative h-56 sm:h-64 rounded-xl overflow-hidden shadow-md mt-6">
-            <Image
-              src="/img/clinica4.jpg"
-              alt="Paciente feliz en IS Dental"
-              fill
-              className="object-cover hover:scale-105 transition-transform duration-500"
-            />
-          </div>
+
         </div>
       </div>
     </section>

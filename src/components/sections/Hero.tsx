@@ -16,9 +16,9 @@ export default function Hero() {
 
       <div className="relative mx-auto max-w-6xl px-6 py-24 text-center z-10">
         <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl leading-tight">
-          Relajación <br />
+          Relajación
           <span className="bg-gradient-to-r from-[#6F2DBD] to-[#10BFA0] bg-clip-text text-transparent">
-            al sonreir
+            {` al sonreir`}
           </span>
         </h1>
 
